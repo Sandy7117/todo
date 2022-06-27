@@ -1,0 +1,21 @@
+.update-heading {
+  text-align: center;
+}
+
+.nav-style {
+  display: flex;
+  align-items: center;
+}
+
+.userEmail {
+  margin-right: 10px;
+}
+
+.btn-style {
+  margin-left: 10px;
+}
+
+.error-handle {
+  margin-top: 10px;
+  text-align: center;
+}
