@@ -22,7 +22,7 @@ const UpdateTodo = () => {
     event.preventDefault();
   }
 
-  const url = `https://todo-8adda-default-rtdb.firebaseio.com/userdata/${params}.json`;
+  const url = `https://newtodo-c2203-default-rtdb.firebaseio.com/userdata/${params}.json`;
 
   useEffect(() => {
     axios

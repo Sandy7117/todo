@@ -78,7 +78,7 @@ const Mainpage = () => {
       settodo(newtodo);
       axios
         .patch(
-          `https://todo-8adda-default-rtdb.firebaseio.com/userdata/${index}.json`,
+          `https://newtodo-c2203-default-rtdb.firebaseio.com/userdata/${index}.json`,
           {
             isDone: true,
           }
@@ -98,7 +98,7 @@ const Mainpage = () => {
     settodo(newtodo);
     axios
       .delete(
-        `https://todo-8adda-default-rtdb.firebaseio.com/userdata/${index}.json`
+        `https://newtodo-c2203-default-rtdb.firebaseio.com/userdata/${index}.json`
       )
       .then(function (response) {
         history.push("/mainpage");

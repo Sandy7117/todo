@@ -52,7 +52,7 @@ const ResetProfile = () => {
     const path = newTodo[0].id;
     axios
       .patch(
-        `https://todo-8adda-default-rtdb.firebaseio.com/userDetails/${path}.json`,
+        `https://newtodo-c2203-default-rtdb.firebaseio.com/userDetails/${path}.json`,
         {
           firstName: firstName.current.value,
           lastName: lastName.current.value,
